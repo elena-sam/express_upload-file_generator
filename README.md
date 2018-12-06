@@ -11,5 +11,7 @@ First approach to Express-generator, and Mutler
 Clone this repo, then in the terminal:
 - `npm install`
 - `node bin/www` 
+
 Go to http://localhost:3000 in your browser, to access the Index page
+
 Choose files (max 3, .png)
