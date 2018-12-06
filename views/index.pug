@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Choose a file below
+  form(action='/fileupload' method='POST' enctype='multipart/form-data')
+    input(type='file', name='myFiles', accept='image/png', multiple)
+    button(type='submit') Upload
